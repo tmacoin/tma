@@ -1,0 +1,1 @@
+start javaw -Xmx512m -jar tma.jar "data/" "4000"

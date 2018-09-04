@@ -1,0 +1,1 @@
+java -Xmx512m -jar tma.jar "data/" "4000"
