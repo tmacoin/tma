@@ -1,1 +1,1 @@
-java -Xmx256m -cp tma.jar org.tma.util.ExportKeys "4000"
+java -Xmx256m -cp tma.jar org.tma.util.ExportKeys "data/"
