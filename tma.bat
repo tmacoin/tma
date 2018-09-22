@@ -1,1 +1,1 @@
-java -Xmx512m -cp tma.jar org.tma.peer.Main "data/" "4000"
+java -Xmx512m -cp tma.jar org.tma.peer.Main "data/" "4000" "0"
