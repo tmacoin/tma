@@ -1,0 +1,1 @@
+java -Xmx256m -cp tma.jar org.tma.util.SendTransaction "<port>" "<receiver address>" "<amount in coins>" "<fee in satoshi>"
