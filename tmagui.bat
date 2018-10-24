@@ -1,1 +1,1 @@
-start javaw -Xmx512m -jar tma.jar "data/" "4000"
+start javaw -Xmx512m -Djava.net.preferIPv4Stack=true -jar tma.jar "data/" "4000"
