@@ -1,0 +1,1 @@
+start java -Xmx256m -cp tma.jar org.tma.peer.Rollback "data/" "<replace with index that will be rolled back>"
