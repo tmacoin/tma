@@ -2,7 +2,7 @@ TMA is the first distributed ledger, which implements full sharding. Currently, 
 
 Installation instructions
 
-1)    Install latest Java JDK, later than 1.8.0_172, since older version might have some problem with cryptography strength. Java 64 bit works faster.
+1)    Install latest Java JDK, later than 1.8.0_172, since older version might have some problem with cryptography strength; Java 64 bit works faster.
 2)    Download the Application: go to https://github.com/tmacoin/tma and select download zip. Unzip it into folder where you have full access.
 3)    Double click on either tma.bat or tmagui.bat and enter passphrase that you will not forget. tmagui.bat only works on Windows. Note: no one can assist you with restoring your passphrase, so store it in a safe place, preferable cold storage(off the Internet).
 4)    To verify the application is executing, check tma.log file in log directory. tma.sh works on Linux without GUI. Tested nongui on Macintosh, Ubuntu and Solaris.
