@@ -8,20 +8,22 @@
         <jar destfile="${dir.jarfile}/tma.jar">
             <manifest>
                 <attribute name="Main-Class" value="org.tma.fx.AppMain"/>
-                <attribute name="Class-Path" value=". lib/bcprov-jdk15on-159.jar lib/derby.jar lib/log4j-api-2.11.0.jar lib/log4j-core-2.11.0.jar lib/gson-2.8.5.jar lib/commons-lang3-3.8.jar lib/jfxswt.jar lib/controlsfx-8.40.14.jar config/"/>
+                <attribute name="Class-Path" value=". lib/bcprov-jdk15on-159.jar lib/derby.jar lib/log4j-api-2.11.0.jar lib/log4j-core-2.11.0.jar lib/gson-2.8.5.jar lib/commons-lang3-3.8.jar lib/jfxswt.jar lib/controlsfx-8.40.14.jar lib/kryo-5.0.0-RC1.jar lib/minlog-1.3.0.jar lib/objenesis-2.6.jar lib/reflectasm-1.11.6.jar config/"/>
             </manifest>
             <fileset dir="${dir.workspace}/tmafx/bin"/>
             <fileset dir="${dir.workspace}/t'ma/bin"/>
         </jar>
         <delete dir="${dir.jarfile}/lib"/>
         <mkdir dir="${dir.jarfile}/lib"/>
-        <copy file="${dir.workspace}/t'ma/lib/bcprov-jdk15on-159.jar" todir="${dir.jarfile}/lib"/>
-        <copy file="${dir.workspace}/t'ma/lib/derby.jar" todir="${dir.jarfile}/lib"/>
-        <copy file="${dir.workspace}/t'ma/lib/log4j-api-2.11.0.jar" todir="${dir.jarfile}/lib"/>
-        <copy file="${dir.workspace}/t'ma/lib/log4j-core-2.11.0.jar" todir="${dir.jarfile}/lib"/>
-        <copy file="${dir.workspace}/t'ma/lib/gson-2.8.5.jar" todir="${dir.jarfile}/lib"/>
-        <copy file="${dir.workspace}/t'ma/lib/commons-lang3-3.8.jar" todir="${dir.jarfile}/lib"/>
-        <copy file="${dir.workspace}/tmafx/lib/jfxswt.jar" todir="${dir.jarfile}/lib"/>
-        <copy file="${dir.workspace}/tmafx/lib/controlsfx-8.40.14.jar" todir="${dir.jarfile}/lib"/>
+        <copy todir="${dir.jarfile}/lib">
+      		<fileset dir="${dir.workspace}/t'ma/lib/">
+        		<include name="*.jar"/>
+      		</fileset>
+    	</copy>
+        <copy todir="${dir.jarfile}/lib">
+      		<fileset dir="${dir.workspace}/tmafx/lib/">
+        		<include name="*.jar"/>
+      		</fileset>
+      	</copy>
     </target>
 </project>
