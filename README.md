@@ -8,5 +8,6 @@ Installation instructions
 4)    To verify the application is executing, check tma.log file in log directory. tma.sh works on Linux without GUI. Tested nongui on Macintosh, Ubuntu and Solaris.
 5)    When starting TMA for the first time, it will download blocks until the current block. However, there is another option. To speed-up the initial start-up, use the following link https://drive.google.com/open?id=1fhvBgXA7mG2w9a9KIadAo9Mg2GJFuQN3 and download data for one of 8 blockchains. Select a random blockchain data to distribute nodes evenly between shards. Folder where you extract data zip file should immediately contain derbydb directory. For example, tma.bat or tma.sh points to "data/", data folder should be located in the same directory as tma.bat/tma.sh and contain derbydb directory after zip file extraction. In order to accept incoming connections firewall/router should allow incoming traffic on port 4000.
 6)    Finally, in order to start mining, a minimum balance of one coin is required.
+7)    Currently when sending coins, transaction fee is optional and can be set to 0
 
 Please check message board at https://cointma.org for more information.
