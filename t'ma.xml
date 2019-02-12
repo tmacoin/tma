@@ -8,7 +8,7 @@
         <jar destfile="${dir.jarfile}/tma.jar">
             <manifest>
                 <attribute name="Main-Class" value="org.tma.fx.AppMain"/>
-                <attribute name="Class-Path" value=". lib/bcprov-jdk15on-159.jar lib/derby.jar lib/log4j-api-2.11.0.jar lib/log4j-core-2.11.0.jar lib/gson-2.8.5.jar lib/commons-lang3-3.8.jar lib/jfxswt.jar lib/controlsfx-8.40.14.jar lib/expiringmap-0.5.9.jar config/"/>
+                <attribute name="Class-Path" value=". lib/bcprov-jdk15on-159.jar lib/derby.jar lib/log4j-api-2.11.0.jar lib/log4j-core-2.11.0.jar lib/gson-2.8.5.jar lib/commons-lang3-3.8.jar lib/jfxswt.jar lib/controlsfx-8.40.14.jar config/"/>
             </manifest>
             <fileset dir="${dir.workspace}/tmafx/bin"/>
             <fileset dir="${dir.workspace}/t'ma/bin"/>
