@@ -1,0 +1,100 @@
+#root {
+ -fx-background-color:  linear-gradient(lightgray, gray);
+
+ 
+}
+
+ #bp {
+ -fx-background-color:  linear-gradient(gray,DimGrey );
+ 
+}
+#btn1{
+	-fx-text-fill:black;
+	-fx-font-size: 12.0px;
+	-fx-border-color: #000000; -fx-border-width: 2px;
+	-fx-background-color: #c0c0c0;
+	-fx-padding: 5.0 15.0 5.0 15.0;
+}
+
+#btn2{
+	-fx-text-fill:black;
+	-fx-font-size: 12.0px;
+	-fx-border-color: #000000; -fx-border-width: 2px;
+	-fx-background-color: #c0c0c0;
+	-fx-padding: 5.0 15.0 5.0 15.0;
+   }
+
+#btn3{
+	-fx-text-fill:black;
+	-fx-font-size: 12.0px;
+	-fx-border-color: #000000; -fx-border-width: 2px;
+	-fx-background-color: #c0c0c0;
+	-fx-padding: 5.0 15.0 5.0 15.0;
+    }
+
+#btn4{
+	-fx-text-fill:black;
+	-fx-font-size: 12.0px;
+	-fx-border-color: #000000; -fx-border-width: 2px;
+	-fx-background-color: #c0c0c0;
+	-fx-padding: 5.0 15.0 5.0 15.0;
+    }
+    
+#btn5{
+	-fx-text-fill:black;
+	-fx-font-size: 12.0px;
+	-fx-border-color: #000000; -fx-border-width: 2px;
+	-fx-background-color: #c0c0c0;
+	-fx-padding: 5.0 15.0 5.0 15.0;
+    }
+
+#btn6{
+	-fx-text-fill:black;
+	-fx-font-size: 12.0px;
+	-fx-border-color: #000000; -fx-border-width: 2px;
+	-fx-background-color: #c0c0c0;
+	-fx-padding: 5.0 15.0 5.0 15.0;
+    }
+#btn7{
+	-fx-text-fill:black;
+	-fx-font-size: 12.0px;
+	-fx-border-color: #000000; -fx-border-width: 2px;
+	-fx-background-color: #c0c0c0;
+	-fx-padding: 5.0 15.0 5.0 15.0;
+    }
+#btn8{
+	-fx-text-fill:black;
+	-fx-font-size: 12.0px;
+	-fx-border-color: #000000; -fx-border-width: 2px;
+	-fx-background-color: #c0c0c0;
+	-fx-padding: 5.0 15.0 5.0 15.0;
+    }
+#btn9{
+	
+	-fx-text-fill:black;
+	-fx-font-size: 12.0px;
+	-fx-border-color: #000000; -fx-border-width: 2px;
+	-fx-background-color: #c0c0c0;
+	-fx-padding: 5.0 15.0 5.0 15.0;
+    }
+#btn10{
+	-fx-text-fill:black;
+	-fx-font-size: 12.0px;
+	-fx-border-color: #000000; -fx-border-width: 2px;
+	-fx-background-color: #c0c0c0;
+	-fx-padding: 5.0 15.0 5.0 15.0;
+    }
+#btn11{
+	-fx-text-fill:black;
+	-fx-font-size: 12.0px;
+	-fx-border-color: #000000; -fx-border-width: 2px;
+	-fx-background-color: #c0c0c0;
+	-fx-padding: 5.0 15.0 5.0 15.0;
+    }
+#btn12{
+	-fx-text-fill:black;
+	-fx-font-size: 12.0px;
+	-fx-border-color: #000000; -fx-border-width: 2px;
+	-fx-background-color: #c0c0c0;
+	-fx-padding: 5.0 15.0 5.0 15.0;
+    }
