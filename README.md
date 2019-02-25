@@ -1,4 +1,5 @@
-TMA is the first distributed ledger, which implements full sharding. Currently, it consists of 8 blockchains, which are collectively merge mined. It will start splitting into more shards as more nodes join the network.
+TMA is the first distributed ledger, which implements full sharding. Currently, it consists of 8 blockchains, which are collectively merge mined. For example, shard 0 collects hashes from shards 1, 3, 7 and shard 1 collects hashes from shards 0, 2, 6 for merge mining. When network grows to over a million shards (2^20) then a single shards would need to merge mine just 20 other hashes.
+It will start splitting into more shards as more nodes join the network.
 
 Installation instructions
 
