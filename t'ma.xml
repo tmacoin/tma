@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project default="create_run_jar" name="Create Runnable Jar for Project tmafx with libraries in sub-folder">
     <property name="dir.buildfile" value="."/>
-    <property name="dir.workspace" value="D:/projects/t'ma"/>
+    <property name="dir.workspace" value="Z:/t'ma"/>
     <property name="dir.jarfile" value="D:/git/tma"/>
     <target name="create_run_jar">
     	<delete file="${dir.jarfile}/tma.jar"/>
