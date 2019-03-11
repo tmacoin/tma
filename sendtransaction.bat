@@ -1,1 +1,1 @@
-java -Xmx256m -cp tma.jar org.tma.util.SendTransaction "<port>" "<receiver address>" "<amount in coins>" "<fee in satoshi>"
+java -Xmx256m -cp tma.jar org.tma.util.SendTransaction "<port>" "<receiver address>" "<amount in coins>" "<fee in satoshi>" "<data up to 1000 chars>"
