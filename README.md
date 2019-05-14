@@ -12,3 +12,5 @@ Installation instructions
 7)    Currently when sending coins, transaction fee is optional and can be set to 0
 
 Please check message board at https://cointma.org for more information.
+
+May 14, 2019: latest release is 0.0.7. New algorithm to achive consensus between shards. To upgrade from release 0.0.6 just replace tma.jar and restart the app.
