@@ -1,0 +1,1 @@
+java -Xmx256m -cp tma.jar org.tma.util.GetBalance -a "<TMA Address>" -p "<port of locally running TMA application>"
