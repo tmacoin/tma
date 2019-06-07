@@ -1,0 +1,1 @@
+java -Xmx256m -cp tma.jar org.tma.util.Shutdown -p "<port of locally running TMA application>"
