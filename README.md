@@ -4,12 +4,14 @@ It will start splitting into more shards as more nodes join the network.
 Installation instructions
 
 1)    Install latest Java JDK, later than 1.8.0_172, since older version might have some problem with cryptography strength; Java 64 bit works faster.
-2)    Download the Application: go to https://github.com/tmacoin/tma and select download zip. Unzip it into folder where you have full access.
-3)    Double click on either tma.bat or tmagui.bat and enter passphrase that you will not forget. tmagui.bat only works on Windows. Note: no one can assist you with restoring your passphrase, so store it in a safe place, preferable cold storage(off the Internet).
-4)    To verify the application is executing, check tma.log file in log directory. tma.sh works on Linux without GUI. Tested nongui on Macintosh, Ubuntu and Solaris.
-5)    When starting TMA for the first time, it will download blocks until the current block. However, there is another option. To speed-up the initial start-up, use the following link https://drive.google.com/open?id=1fhvBgXA7mG2w9a9KIadAo9Mg2GJFuQN3 and download data for one of 8 blockchains. Select a random blockchain data to distribute nodes evenly between shards. Folder where you extract data zip file should immediately contain derbydb directory. For example, tma.bat or tma.sh points to "data/", data folder should be located in the same directory as tma.bat/tma.sh and contain derbydb directory after zip file extraction. In order to accept incoming connections firewall/router should allow incoming traffic on port 4000.
-6)    Finally, in order to start mining, a minimum balance of one coin is required.
-7)    Currently when sending coins, transaction fee is optional and can be set to 0
+2)    Download the Application: go to https://github.com/tmacoin/tma and select download zip. Unzip it into folder where you have full access rights.
+3)    When starting TMA for the first time, it will download blocks until the current block. To speed this process, another option is avaiable. Use the following link https://drive.google.com/open?id=1fhvBgXA7mG2w9a9KIadAo9Mg2GJFuQN3 to download one of the data zip files; that is, select a random blockchain(zip file) data. By selecting a random zip file, it will distribute nodes evenly between shards. After you download and unzip the zip file, go to(i.e. cd) to the /data folder. The derbydb directory should exist immediatley below the /data directory. The /data folder should be located in the same directory as tma.bat/tma.sh.  Getting the data directory structure is imperative, since tma.bat, tmagui.bat or tma.sh point to "data/" folder when starting the app.     
+      note:  If using 7-zip, "select Extract Here" when unzipping the data.zip file.
+4)    Configure your firewall to accept incoming connections. It should allow incoming traffic on port 4000.
+5)    To start the app, double click on either tma.bat or tmagui.bat and enter your passphrase and confirm passphras. DO NOT FORGET YOUR PASSPHRASE. Currently, tmagui.bat only works on Windows. Note: no one can assist you with restoring your passphrase, so store it in a safe place, preferable cold storage(off the Internet).
+6)    To verify the application is executing, check tma.log file in log directory, which exist in the TMA master diretory. File tma.sh works on Linux without GUI. Tested nongui on Macintosh, Ubuntu and Solaris.
+7)    Finally, in order to start mining, a minimum balance of one coin is required.
+8)    Currently when sending coins, transaction fee is optional and can be set to 0
 
 Please check message board at https://cointma.org for more information.
 
