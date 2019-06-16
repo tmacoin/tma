@@ -15,4 +15,6 @@ Installation instructions
 
 Please check message board at https://cointma.org for more information.
 
-May 14, 2019: latest release is 0.0.7. New algorithm to achive consensus between shards. To upgrade from release 0.0.6 just replace tma.jar and restart the app.
+June 16, 2019: latest release is 0.0.8. Removed certain changes that caused instability. To upgrade from release 0.0.7 just replace tma.jar and restart the app.
+
+May 14, 2019: Release 0.0.7. New algorithm to achive consensus between shards. To upgrade from release 0.0.6 just replace tma.jar and restart the app.
