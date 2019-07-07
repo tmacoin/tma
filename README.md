@@ -15,12 +15,17 @@ Installation instructions
 
 Please check message board at https://cointma.org for more information.
 
-June 28, 2019: latest release is 0.0.9. Improvement on blockchain synchronization and connection to different shards. To upgrade from release 0.0.8 just: 
+July 7, 2019: The latest release is 0.0.11. Miner deposit increased to 1000 coins and inputs for the deposit has to be older than 12 hours. To upgrade: 
       1) Shutdown your instance by executing the shutdown script or File|Exit menu
       2) Download/replace tma.jar
       3) Restart the app by executing tma.* script
 
-June 16, 2019: latest release is 0.0.8. Removed certain changes that caused instability. To upgrade from release 0.0.7 just: 
+June 28, 2019: Release is 0.0.9. Improvement on blockchain synchronization and connection to different shards. To upgrade from release 0.0.8 just: 
+      1) Shutdown your instance by executing the shutdown script or File|Exit menu
+      2) Download/replace tma.jar
+      3) Restart the app by executing tma.* script
+
+June 16, 2019: Release is 0.0.8. Removed certain changes that caused instability. To upgrade from release 0.0.7 just: 
       1) Shutdown your instance by executing the shutdown script or File|Exit menu
       2) Download/replace tma.jar
       3) Restart the app by executing tma.* script
