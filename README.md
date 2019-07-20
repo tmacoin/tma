@@ -10,12 +10,17 @@ Installation instructions
 4)    Configure your firewall to accept incoming connections. It should allow incoming traffic on port 4000.
 5)    To start the app, double click on either tma.bat or tmagui.bat and enter your pass phrase and confirm pass phrase. DO NOT FORGET YOUR PASSPHRASE. Currently, tmagui.bat only works on Windows. Note: no one can assist you with restoring your pass phrase, so store it in a safe place, preferable cold storage(off the Internet).
 6)    To verify the application is executing, check tma.log file in log directory, which exist in the TMA master diretory. File tma.sh works on Linux without GUI. Tested nongui on Macintosh, Ubuntu and Solaris.
-7)    Finally, in order to start mining, a minimum balance of one coin is required.
+7)    Finally, in order to start mining, a minimum balance of 1000 coins is required.
 8)    Currently when sending coins, transaction fee is optional and can be set to 0
 
 Please check message board at https://cointma.org for more information.
 
-July 7, 2019: The latest release is 0.0.11. Miner deposit increased to 1000 coins and inputs for the deposit has to be older than 12 hours. To upgrade: 
+July 19, 2019: The latest release is 0.0.12. Improved algorithm for replacement with longer(stronger) chain. Inputs for the deposit has to be older than 24 hours. To upgrade: 
+      1) Shutdown your instance by executing the shutdown script or File|Exit menu
+      2) Download/replace tma.jar
+      3) Restart the app by executing tma.* script
+      
+July 7, 2019: Release is 0.0.11. Miner deposit increased to 1000 coins and inputs for the deposit has to be older than 12 hours. To upgrade: 
       1) Shutdown your instance by executing the shutdown script or File|Exit menu
       2) Download/replace tma.jar
       3) Restart the app by executing tma.* script
