@@ -1,1 +1,1 @@
-java -Xmx512m -Djava.net.preferIPv4Stack=true -cp tma.jar org.tma.peer.Main -d "data/" -p "4000"
+java -Xmx512m -Djava.net.preferIPv4Stack=true -cp tma.jar org.tma.peer.Main -d "data/" -p "4000" -pr "config/proof"
